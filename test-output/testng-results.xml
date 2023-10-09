@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-09T16:23:52 PDT" name="Rediff Hybrid Practice Automation Suite" finished-at="2023-10-09T16:26:34 PDT" duration-ms="162191">
+    <groups>
+    </groups>
+    <test started-at="2023-10-09T16:23:52 PDT" name="Rediff Hybrid Practice Testcases" finished-at="2023-10-09T16:26:34 PDT" duration-ms="162191">
+      <class name="com.qa.hybridpractice.testcases.HybridPractice_HomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_HomeTest@5745ca0e]" started-at="2023-10-09T16:26:08 PDT" name="setUp" finished-at="2023-10-09T16:26:15 PDT" duration-ms="6829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="presenceOfRediffLogo()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_HomeTest@5745ca0e]" started-at="2023-10-09T16:26:15 PDT" name="presenceOfRediffLogo" finished-at="2023-10-09T16:26:21 PDT" duration-ms="5896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceOfRediffLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_HomeTest@5745ca0e]" started-at="2023-10-09T16:26:21 PDT" name="tearDown" finished-at="2023-10-09T16:26:21 PDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridpractice.testcases.HybridPractice_HomeTest -->
+      <class name="com.qa.hybridpractice.testcases.HybridPractice_LogOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LogOutTest@4082ba93]" started-at="2023-10-09T16:23:54 PDT" name="setUp" finished-at="2023-10-09T16:24:14 PDT" duration-ms="19927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signOutMessageIsDisplayed()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LogOutTest@4082ba93]" started-at="2023-10-09T16:24:14 PDT" name="signOutMessageIsDisplayed" finished-at="2023-10-09T16:24:17 PDT" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutMessageIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LogOutTest@4082ba93]" started-at="2023-10-09T16:24:17 PDT" name="tearDown" finished-at="2023-10-09T16:24:18 PDT" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridpractice.testcases.HybridPractice_LogOutTest -->
+      <class name="com.qa.hybridpractice.testcases.HybridPractice_LinkTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LinkTests@3ad83a66]" started-at="2023-10-09T16:26:21 PDT" name="setUp" finished-at="2023-10-09T16:26:23 PDT" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linkTests()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LinkTests@3ad83a66]" started-at="2023-10-09T16:26:23 PDT" name="linkTests" finished-at="2023-10-09T16:26:34 PDT" duration-ms="10906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LinkTests@3ad83a66]" started-at="2023-10-09T16:26:34 PDT" name="tearDown" finished-at="2023-10-09T16:26:34 PDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridpractice.testcases.HybridPractice_LinkTests -->
+      <class name="com.qa.hybridpractice.testcases.HybridPractice_LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:28 PDT" name="setUp" finished-at="2023-10-09T16:24:31 PDT" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:31 PDT" name="logInWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-10-09T16:24:36 PDT" duration-ms="4738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:36 PDT" name="tearDown" finished-at="2023-10-09T16:24:36 PDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:36 PDT" name="setUp" finished-at="2023-10-09T16:24:39 PDT" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:39 PDT" name="logInWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-10-09T16:24:42 PDT" duration-ms="2858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:42 PDT" name="tearDown" finished-at="2023-10-09T16:24:42 PDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:42 PDT" name="setUp" finished-at="2023-10-09T16:24:45 PDT" duration-ms="3150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:45 PDT" name="logInWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-10-09T16:24:48 PDT" duration-ms="2734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Donkey@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:48 PDT" name="tearDown" finished-at="2023-10-09T16:24:48 PDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:48 PDT" name="setUp" finished-at="2023-10-09T16:24:51 PDT" duration-ms="3436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:51 PDT" name="logInWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-10-09T16:24:56 PDT" duration-ms="4759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarthakkumarpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:56 PDT" name="tearDown" finished-at="2023-10-09T16:24:56 PDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:24:56 PDT" name="setUp" finished-at="2023-10-09T16:25:00 PDT" duration-ms="3506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:00 PDT" name="logInWithValidCredentialsUsingDataProvider" data-provider="RediffDataProviderSupply" finished-at="2023-10-09T16:25:05 PDT" duration-ms="5316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamedboudguig@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Medbdg0707@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:05 PDT" name="tearDown" finished-at="2023-10-09T16:25:05 PDT" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:07 PDT" name="setUp" finished-at="2023-10-09T16:25:10 PDT" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProviderExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:10 PDT" name="logInWithValidCredentialsUsingDataProviderExcelSheet" data-provider="RediffExcelDataWithDataProvider" finished-at="2023-10-09T16:25:16 PDT" duration-ms="5929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:16 PDT" name="tearDown" finished-at="2023-10-09T16:25:16 PDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:16 PDT" name="setUp" finished-at="2023-10-09T16:25:20 PDT" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProviderExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:20 PDT" name="logInWithValidCredentialsUsingDataProviderExcelSheet" data-provider="RediffExcelDataWithDataProvider" finished-at="2023-10-09T16:25:22 PDT" duration-ms="2608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:22 PDT" name="tearDown" finished-at="2023-10-09T16:25:22 PDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:22 PDT" name="setUp" finished-at="2023-10-09T16:25:25 PDT" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProviderExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:25 PDT" name="logInWithValidCredentialsUsingDataProviderExcelSheet" data-provider="RediffExcelDataWithDataProvider" finished-at="2023-10-09T16:25:28 PDT" duration-ms="2507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Donkey@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:28 PDT" name="tearDown" finished-at="2023-10-09T16:25:28 PDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:28 PDT" name="setUp" finished-at="2023-10-09T16:25:31 PDT" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProviderExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:31 PDT" name="logInWithValidCredentialsUsingDataProviderExcelSheet" data-provider="RediffExcelDataWithDataProvider" finished-at="2023-10-09T16:25:36 PDT" duration-ms="4612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarthakkumarpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:36 PDT" name="tearDown" finished-at="2023-10-09T16:25:36 PDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:36 PDT" name="setUp" finished-at="2023-10-09T16:25:39 PDT" duration-ms="2974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithValidCredentialsUsingDataProviderExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:39 PDT" name="logInWithValidCredentialsUsingDataProviderExcelSheet" data-provider="RediffExcelDataWithDataProvider" finished-at="2023-10-09T16:25:45 PDT" duration-ms="5969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamedboudguig@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Medbdg0707@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:45 PDT" name="tearDown" finished-at="2023-10-09T16:25:45 PDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:45 PDT" name="setUp" finished-at="2023-10-09T16:25:48 PDT" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithInvalidCredentials()[pri:3, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:48 PDT" name="logInWithInvalidCredentials" finished-at="2023-10-09T16:25:49 PDT" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:49 PDT" name="tearDown" finished-at="2023-10-09T16:25:49 PDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:49 PDT" name="setUp" finished-at="2023-10-09T16:25:52 PDT" duration-ms="2977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:4, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:52 PDT" name="loginWithValidUsernameInvalidPassword" finished-at="2023-10-09T16:25:53 PDT" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:53 PDT" name="tearDown" finished-at="2023-10-09T16:25:53 PDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:53 PDT" name="setUp" finished-at="2023-10-09T16:25:56 PDT" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithInvalidUsernameValidPassword()[pri:5, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:56 PDT" name="logInWithInvalidUsernameValidPassword" finished-at="2023-10-09T16:25:57 PDT" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:57 PDT" name="tearDown" finished-at="2023-10-09T16:25:57 PDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:25:57 PDT" name="setUp" finished-at="2023-10-09T16:26:00 PDT" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInWithNotCredentials()[pri:6, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:26:00 PDT" name="logInWithNotCredentials" finished-at="2023-10-09T16:26:00 PDT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithNotCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LoginTests@2de56eb2]" started-at="2023-10-09T16:26:00 PDT" name="tearDown" finished-at="2023-10-09T16:26:00 PDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridpractice.testcases.HybridPractice_LoginTests -->
+      <class name="com.qa.hybridpractice.testcases.HybridPractice_InboxTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_InboxTest@5f8e8a9d]" started-at="2023-10-09T16:26:00 PDT" name="setUp" finished-at="2023-10-09T16:26:05 PDT" duration-ms="4828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="presenceOfInboxButton()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_InboxTest@5f8e8a9d]" started-at="2023-10-09T16:26:05 PDT" name="presenceOfInboxButton" finished-at="2023-10-09T16:26:08 PDT" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceOfInboxButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_InboxTest@5f8e8a9d]" started-at="2023-10-09T16:26:08 PDT" name="tearDown" finished-at="2023-10-09T16:26:08 PDT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridpractice.testcases.HybridPractice_InboxTest -->
+      <class name="com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest@6f204a1a]" started-at="2023-10-09T16:24:24 PDT" name="setUp" finished-at="2023-10-09T16:24:26 PDT" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSignInLink()[pri:1, instance:com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest@6f204a1a]" started-at="2023-10-09T16:24:26 PDT" name="clickOnSignInLink" finished-at="2023-10-09T16:24:28 PDT" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest@6f204a1a]" started-at="2023-10-09T16:24:28 PDT" name="tearDown" finished-at="2023-10-09T16:24:28 PDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest -->
+      <class name="com.qa.hybridpractice.testcases.HybridPractice_LandingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:18 PDT" name="setUp" finished-at="2023-10-09T16:24:20 PDT" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitleAndCurrentUrl()[pri:1, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:20 PDT" name="validateTitleAndCurrentUrl" finished-at="2023-10-09T16:24:20 PDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleAndCurrentUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:20 PDT" name="tearDown" finished-at="2023-10-09T16:24:20 PDT" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:20 PDT" name="setUp" finished-at="2023-10-09T16:24:22 PDT" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signInButtonIsDisplayedAndEnabled()[pri:2, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:22 PDT" name="signInButtonIsDisplayedAndEnabled" finished-at="2023-10-09T16:24:22 PDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInButtonIsDisplayedAndEnabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:22 PDT" name="tearDown" finished-at="2023-10-09T16:24:22 PDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:22 PDT" name="setUp" finished-at="2023-10-09T16:24:24 PDT" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="rediffLogoIsDisplayed()[pri:3, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:24 PDT" name="rediffLogoIsDisplayed" finished-at="2023-10-09T16:24:24 PDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLogoIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hybridpractice.testcases.HybridPractice_LandingTest@2a8448fa]" started-at="2023-10-09T16:24:24 PDT" name="tearDown" finished-at="2023-10-09T16:24:24 PDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hybridpractice.testcases.HybridPractice_LandingTest -->
+    </test> <!-- Rediff Hybrid Practice Testcases -->
+  </suite> <!-- Rediff Hybrid Practice Automation Suite -->
+</testng-results>

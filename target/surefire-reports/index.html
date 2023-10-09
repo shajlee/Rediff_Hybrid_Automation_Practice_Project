@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Rediff Hybrid Practice Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\chowd\eclipse-workspace\Maven_Rediff_Framework_Hybrid_Practice\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Rediff_Hybrid_Practice_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 1 failed,  1 skipped,  20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="hide-methods failed suite-Rediff_Hybrid_Practice_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="show-methods failed suite-Rediff_Hybrid_Practice_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Rediff_Hybrid_Practice_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LogOutTest" class="method navigator-link" hash-for-method="signOutMessageIsDisplayed">signOutMessageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="hide-methods skipped suite-Rediff_Hybrid_Practice_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="show-methods skipped suite-Rediff_Hybrid_Practice_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Rediff_Hybrid_Practice_Automation_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_HomeTest" class="method navigator-link" hash-for-method="presenceOfRediffLogo">presenceOfRediffLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="hide-methods passed suite-Rediff_Hybrid_Practice_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="show-methods passed suite-Rediff_Hybrid_Practice_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rediff_Hybrid_Practice_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest" class="method navigator-link" hash-for-method="clickOnSignInLink">clickOnSignInLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LinkTests" class="method navigator-link" hash-for-method="linkTests">linkTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithInvalidCredentials">logInWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithInvalidUsernameValidPassword">logInWithInvalidUsernameValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithNotCredentials">logInWithNotCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProvider(Mohamedboudguig@rediffmail.com, Medbdg0707@)">logInWithValidCredentialsUsingDataProvider(Mohamedboudguig@rediffmail.com, Medbdg0707@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProvider(sarthakkumarpanda@rediffmail.com, Selenium@123)">logInWithValidCredentialsUsingDataProvider(sarthakkumarpanda@rediffmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProvider(seleniumpanda@rediffmail.com, Selenium@123)">logInWithValidCredentialsUsingDataProvider(seleniumpanda@rediffmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProvider(chowdhurygs@rediffmail.com, Shajlee1@)">logInWithValidCredentialsUsingDataProvider(chowdhurygs@rediffmail.com, Shajlee1@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProvider(seleniumpanda1@rediffmail.com, Donkey@123)">logInWithValidCredentialsUsingDataProvider(seleniumpanda1@rediffmail.com, Donkey@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProviderExcelSheet(Mohamedboudguig@rediffmail.com, Medbdg0707@)">logInWithValidCredentialsUsingDataProviderExcelSheet(Mohamedboudguig@rediffmail.com, Medbdg0707@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProviderExcelSheet(chowdhurygs@rediffmail.com, Shajlee1@)">logInWithValidCredentialsUsingDataProviderExcelSheet(chowdhurygs@rediffmail.com, Shajlee1@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProviderExcelSheet(sarthakkumarpanda@rediffmail.com, Selenium@123)">logInWithValidCredentialsUsingDataProviderExcelSheet(sarthakkumarpanda@rediffmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda@rediffmail.com, Selenium@123)">logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda@rediffmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda1@rediffmail.com, Donkey@123)">logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda1@rediffmail.com, Donkey@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LoginTests" class="method navigator-link" hash-for-method="loginWithValidUsernameInvalidPassword">loginWithValidUsernameInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_InboxTest" class="method navigator-link" hash-for-method="presenceOfInboxButton">presenceOfInboxButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LandingTest" class="method navigator-link" hash-for-method="rediffLogoIsDisplayed">rediffLogoIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LandingTest" class="method navigator-link" hash-for-method="signInButtonIsDisplayedAndEnabled">signInButtonIsDisplayedAndEnabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" title="com.qa.hybridpractice.testcases.HybridPractice_LandingTest" class="method navigator-link" hash-for-method="validateTitleAndCurrentUrl">validateTitleAndCurrentUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rediff_Hybrid_Practice_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rediff_Hybrid_Practice_Automation_Suite" class="panel Rediff_Hybrid_Practice_Automation_Suite">
+          <div class="suite-Rediff_Hybrid_Practice_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.hybridpractice.testcases.HybridPractice_LogOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signOutMessageIsDisplayed">
+                  </a> <!-- signOutMessageIsDisplayed -->
+                  <span class="method-name">signOutMessageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a onclick=&quot;javascript:void(0)&quot; class=&quot;rd_logout&quot;&gt;...&lt;/a&gt; is not clickable at point (1561, 28). Other element would receive the click: &lt;div id=&quot;sright2div&quot; style=&quot;text-align:center;width:160px;overflow:hidden; background:#fff; height:calc(100vh - 20px)&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=117.0.5938.149)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd6ba14f4ef50234eaf92dd26d9ebc0f, clickElement {id=9696741D5005AA3213F844177E37E675_element_120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\chowd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55479}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55479/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bd6ba14f4ef50234eaf92dd26d9ebc0f)] -&gt; css selector: a.rd_logout]
+Session ID: bd6ba14f4ef50234eaf92dd26d9ebc0f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.qa.hybridpractice.pages.HP_LogOutPageTest.clickOnLogOutButton(HP_LogOutPageTest.java:46)
+	at com.qa.hybridpractice.testcases.HybridPractice_LogOutTest.signOutMessageIsDisplayed(HybridPractice_LogOutTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Practice_Automation_Suite-class-failed -->
+          <div class="suite-Rediff_Hybrid_Practice_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.hybridpractice.testcases.HybridPractice_HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="presenceOfRediffLogo">
+                  </a> <!-- presenceOfRediffLogo -->
+                  <span class="method-name">presenceOfRediffLogo</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a onclick=&quot;javascript:void(0)&quot; class=&quot;rd_logout&quot;&gt;...&lt;/a&gt; is not clickable at point (1561, 28). Other element would receive the click: &lt;div id=&quot;sright2div&quot; style=&quot;text-align:center;width:160px;overflow:hidden; background:#fff; height:calc(100vh - 20px)&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=117.0.5938.149)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d653b1ab558b4f87518e6037f7abd54, clickElement {id=9163050F7A61025FC24C43F56C2B42B0_element_129}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\chowd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57360}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57360/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1d653b1ab558b4f87518e6037f7abd54)] -&gt; class name: rd_logout]
+Session ID: 1d653b1ab558b4f87518e6037f7abd54
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.qa.hybridpractice.pages.HP_HomePageTest.clickOnLogOutButton(HP_HomePageTest.java:49)
+	at com.qa.hybridpractice.testcases.HybridPractice_HomeTest.setUp(HybridPractice_HomeTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 43 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Practice_Automation_Suite-class-skipped -->
+          <div class="suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridpractice.testcases.HybridPractice_LinkTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkTests">
+                  </a> <!-- linkTests -->
+                  <span class="method-name">linkTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSignInLink">
+                  </a> <!-- clickOnSignInLink -->
+                  <span class="method-name">clickOnSignInLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridpractice.testcases.HybridPractice_InboxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="presenceOfInboxButton">
+                  </a> <!-- presenceOfInboxButton -->
+                  <span class="method-name">presenceOfInboxButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridpractice.testcases.HybridPractice_LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithInvalidCredentials">
+                  </a> <!-- logInWithInvalidCredentials -->
+                  <span class="method-name">logInWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithInvalidUsernameValidPassword">
+                  </a> <!-- logInWithInvalidUsernameValidPassword -->
+                  <span class="method-name">logInWithInvalidUsernameValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithNotCredentials">
+                  </a> <!-- logInWithNotCredentials -->
+                  <span class="method-name">logInWithNotCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProvider(Mohamedboudguig@rediffmail.com, Medbdg0707@)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProvider(Mohamedboudguig@rediffmail.com, Medbdg0707@) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProvider</span>
+                  <span class="parameters">(Mohamedboudguig@rediffmail.com,Medbdg0707@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProvider(sarthakkumarpanda@rediffmail.com, Selenium@123)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProvider(sarthakkumarpanda@rediffmail.com, Selenium@123) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProvider</span>
+                  <span class="parameters">(sarthakkumarpanda@rediffmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProvider(seleniumpanda@rediffmail.com, Selenium@123)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProvider(seleniumpanda@rediffmail.com, Selenium@123) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProvider</span>
+                  <span class="parameters">(seleniumpanda@rediffmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProvider(chowdhurygs@rediffmail.com, Shajlee1@)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProvider(chowdhurygs@rediffmail.com, Shajlee1@) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProvider</span>
+                  <span class="parameters">(chowdhurygs@rediffmail.com,Shajlee1@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProvider(seleniumpanda1@rediffmail.com, Donkey@123)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProvider(seleniumpanda1@rediffmail.com, Donkey@123) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProvider</span>
+                  <span class="parameters">(seleniumpanda1@rediffmail.com,Donkey@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProviderExcelSheet(Mohamedboudguig@rediffmail.com, Medbdg0707@)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet(Mohamedboudguig@rediffmail.com, Medbdg0707@) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet</span>
+                  <span class="parameters">(Mohamedboudguig@rediffmail.com,Medbdg0707@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProviderExcelSheet(chowdhurygs@rediffmail.com, Shajlee1@)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet(chowdhurygs@rediffmail.com, Shajlee1@) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet</span>
+                  <span class="parameters">(chowdhurygs@rediffmail.com,Shajlee1@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProviderExcelSheet(sarthakkumarpanda@rediffmail.com, Selenium@123)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet(sarthakkumarpanda@rediffmail.com, Selenium@123) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet</span>
+                  <span class="parameters">(sarthakkumarpanda@rediffmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda@rediffmail.com, Selenium@123)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda@rediffmail.com, Selenium@123) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet</span>
+                  <span class="parameters">(seleniumpanda@rediffmail.com,Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda1@rediffmail.com, Donkey@123)">
+                  </a> <!-- logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda1@rediffmail.com, Donkey@123) -->
+                  <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet</span>
+                  <span class="parameters">(seleniumpanda1@rediffmail.com,Donkey@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidUsernameInvalidPassword">
+                  </a> <!-- loginWithValidUsernameInvalidPassword -->
+                  <span class="method-name">loginWithValidUsernameInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridpractice.testcases.HybridPractice_LandingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rediffLogoIsDisplayed">
+                  </a> <!-- rediffLogoIsDisplayed -->
+                  <span class="method-name">rediffLogoIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInButtonIsDisplayedAndEnabled">
+                  </a> <!-- signInButtonIsDisplayedAndEnabled -->
+                  <span class="method-name">signInButtonIsDisplayedAndEnabled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitleAndCurrentUrl">
+                  </a> <!-- validateTitleAndCurrentUrl -->
+                  <span class="method-name">validateTitleAndCurrentUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Practice_Automation_Suite-class-passed -->
+        </div> <!-- panel Rediff_Hybrid_Practice_Automation_Suite -->
+        <div panel-name="test-xml-Rediff_Hybrid_Practice_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\chowd\eclipse-workspace\Maven_Rediff_Framework_Hybrid_Practice\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Rediff Hybrid Practice Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Rediff Hybrid Practice Testcases&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.hybridpractice.testcases.HybridPractice_LogOutTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridpractice.testcases.HybridPractice_LandingTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridpractice.testcases.HybridPractice_LoginTests&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridpractice.testcases.HybridPractice_InboxTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridpractice.testcases.HybridPractice_HomeTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridpractice.testcases.HybridPractice_LinkTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rediff Hybrid Practice Testcases --&gt;
+&lt;/suite&gt; &lt;!-- Rediff Hybrid Practice Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rediff_Hybrid_Practice_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rediff Hybrid Practice Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Rediff Hybrid Practice Testcases (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rediff_Hybrid_Practice_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rediff Hybrid Practice Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rediff_Hybrid_Practice_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rediff Hybrid Practice Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rediff_Hybrid_Practice_Automation_Suite');
+function tableData_Rediff_Hybrid_Practice_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'linkTests')
+data.setCell(0, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LinkTests')
+data.setCell(0, 3, 10772);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'logInWithValidCredentialsUsingDataProviderExcelSheet')
+data.setCell(1, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(1, 3, 6624);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logInWithValidCredentialsUsingDataProviderExcelSheet')
+data.setCell(2, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(2, 3, 6501);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logInWithValidCredentialsUsingDataProvider')
+data.setCell(3, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(3, 3, 5744);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logInWithValidCredentialsUsingDataProvider')
+data.setCell(4, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(4, 3, 5661);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logInWithValidCredentialsUsingDataProvider')
+data.setCell(5, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(5, 3, 5312);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signOutMessageIsDisplayed')
+data.setCell(6, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LogOutTest')
+data.setCell(6, 3, 5299);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logInWithValidCredentialsUsingDataProviderExcelSheet')
+data.setCell(7, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(7, 3, 5136);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logInWithValidCredentialsUsingDataProvider')
+data.setCell(8, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(8, 3, 4351);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'presenceOfInboxButton')
+data.setCell(9, 2, 'com.qa.hybridpractice.testcases.HybridPractice_InboxTest')
+data.setCell(9, 3, 4085);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'logInWithValidCredentialsUsingDataProviderExcelSheet')
+data.setCell(10, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(10, 3, 3318);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'logInWithValidCredentialsUsingDataProvider')
+data.setCell(11, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(11, 3, 3246);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'logInWithValidCredentialsUsingDataProviderExcelSheet')
+data.setCell(12, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(12, 3, 3168);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickOnSignInLink')
+data.setCell(13, 2, 'com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest')
+data.setCell(13, 3, 1954);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'logInWithInvalidCredentials')
+data.setCell(14, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(14, 3, 629);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginWithValidUsernameInvalidPassword')
+data.setCell(15, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(15, 3, 589);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'logInWithInvalidUsernameValidPassword')
+data.setCell(16, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(16, 3, 573);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'logInWithNotCredentials')
+data.setCell(17, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LoginTests')
+data.setCell(17, 3, 142);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'signInButtonIsDisplayedAndEnabled')
+data.setCell(18, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LandingTest')
+data.setCell(18, 3, 81);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'rediffLogoIsDisplayed')
+data.setCell(19, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LandingTest')
+data.setCell(19, 3, 34);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateTitleAndCurrentUrl')
+data.setCell(20, 2, 'com.qa.hybridpractice.testcases.HybridPractice_LandingTest')
+data.setCell(20, 3, 25);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'presenceOfRediffLogo')
+data.setCell(21, 2, 'com.qa.hybridpractice.testcases.HybridPractice_HomeTest')
+data.setCell(21, 3, 0);
+window.suiteTableData['Rediff_Hybrid_Practice_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Rediff_Hybrid_Practice_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Rediff_Hybrid_Practice_Automation_Suite">
+              </div> <!-- times-div-Rediff_Hybrid_Practice_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rediff_Hybrid_Practice_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rediff Hybrid Practice Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rediff_Hybrid_Practice_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rediff_Hybrid_Practice_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridpractice.testcases.HybridPractice_LogOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signOutMessageIsDisplayed</span>
+                <span class="method-start">6998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12331 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridpractice.testcases.HybridPractice_LandingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTitleAndCurrentUrl</span>
+                <span class="method-start">15634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInButtonIsDisplayedAndEnabled</span>
+                <span class="method-start">18934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19017 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rediffLogoIsDisplayed</span>
+                <span class="method-start">22184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22219 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridpractice.testcases.HybridPractice_SignInLinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnSignInLink</span>
+                <span class="method-start">25426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27380 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridpractice.testcases.HybridPractice_LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProvider(chowdhurygs@rediffmail.com, Shajlee1@)</span>
+                <span class="method-start">31292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProvider(seleniumpanda@rediffmail.com, Selenium@123)</span>
+                <span class="method-start">40796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProvider(seleniumpanda1@rediffmail.com, Donkey@123)</span>
+                <span class="method-start">49376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProvider(sarthakkumarpanda@rediffmail.com, Selenium@123)</span>
+                <span class="method-start">57342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProvider(Mohamedboudguig@rediffmail.com, Medbdg0707@)</span>
+                <span class="method-start">66611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet(chowdhurygs@rediffmail.com, Shajlee1@)</span>
+                <span class="method-start">76636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">81903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda@rediffmail.com, Selenium@123)</span>
+                <span class="method-start">85726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet(seleniumpanda1@rediffmail.com, Donkey@123)</span>
+                <span class="method-start">92760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">96047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet(sarthakkumarpanda@rediffmail.com, Selenium@123)</span>
+                <span class="method-start">99818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">106489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsUsingDataProviderExcelSheet(Mohamedboudguig@rediffmail.com, Medbdg0707@)</span>
+                <span class="method-start">110069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">116824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithInvalidCredentials</span>
+                <span class="method-start">120403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">121156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidUsernameInvalidPassword</span>
+                <span class="method-start">124748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithInvalidUsernameValidPassword</span>
+                <span class="method-start">128934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">129668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithNotCredentials</span>
+                <span class="method-start">133264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133406 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridpractice.testcases.HybridPractice_InboxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">presenceOfInboxButton</span>
+                <span class="method-start">138592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142678 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridpractice.testcases.HybridPractice_HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">142794 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridpractice.testcases.HybridPractice_LinkTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">153298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkTests</span>
+                <span class="method-start">155581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166355 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
